@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+React
+1. Basic Component Creation:
+Task: Create a simple React component, such as a button or a text input field.
+Requirements: Ensure that the component renders without errors and displays some basic content.
+Demonstrate your understanding of JSX syntax and how to define and export functional or class
+components in React.
+2. State Management:
+Task: Create a component that manages its state, such as a counter or a toggle button.
+Requirements: Update the component's state based on user interactions, like button clicks or input
+changes. Show proficiency in using useState hook or setState method to manage component state.
+3. Conditional Rendering:
+Task: Create a component that conditionally renders different content based on its state or props.
+Requirements: Display different messages or elements depending on certain conditions.
+Demonstrate understanding of conditional rendering techniques using if statements, ternary
+operators, or logical && operator.
+4. Forms and Controlled Components:
+Task: Build a form using controlled components.
+Requirements: Create input fields for various data types (text, number, etc.), and update the
+component's state as the user inputs data. Handle form submission and validation.
+5. Component Composition:
+Task: Create a higher-order component (HOC) or a render prop component that encapsulates some
+functionality.
+Requirements: Ensure that the component is reusable and allows other components to leverage its
+functionality. Demonstrate understanding of component composition patterns like HOCs, render
+props, or using React hooks for code reuse.
+6. Lifecycle Methods or useEffect Hook:
+Task: Create a component that utilizes lifecycle methods or the useEffect hook for managing side
+effects.
+Requirements: Demonstrate proper initialization, updating, and cleanup procedures. Understand the
+purpose of lifecycle methods or the useEffect hook and know when to use them.
+7. Routing with React Router:
+Task: Create a multi-page( 3 pages ) application using React Router.
+Requirements: Implement multiple routes, each rendering different components, and allow
+navigation between these routes. Demonstrate understanding of route configuration, nested routes,
+and programmatic navigation.
+8. State Lift-Up and Props Drilling:
+Task: Refactor a component hierarchy to lift up state or avoid excessive props drilling.
+Requirements: Restructure the components to optimize state management and improve component
+reusability. Understand how to pass data between components using props and when to lift state to a
+common ancestor component.
+9. Context API or Redux Integration:
+Task: Integrate either the Context API or Redux for state management in a larger application.
+Requirements: Demonstrate understanding of global state management and implement actions,
+reducers, and dispatchers accordingly. Set up the chosen state management solution, define actions
+and reducers, and connect components to the global state.
+10. Advanced UI and Performance Optimization:
+Task: Optimize the performance of a React application by implementing techniques like memoization,
+lazy loading, or virtualization.
+Requirements: Identify performance bottlenecks and apply appropriate optimizations to improve the
+application's responsiveness and efficiency. Demonstrate understanding of React performance
+optimization techniques such as memoization with useMemo or useCallback, lazy loading of
+components or data, and virtualization for large lists
+11. Error Boundary Implementation:
+Task: Implement an error boundary component in a React application.
+Requirements: Create a component that catches JavaScript errors anywhere in its child component
+tree and displays a fallback UI instead of crashing the whole application. Demonstrate understanding
+of error boundary concepts and how to use them effectively.
+12. Authentication and Protected Routes:
+Task: Create an authentication system with protected routes in a React application.
+Requirements: Implement user authentication using JWT tokens or sessions, and create protected
+routes that require authentication to access. Show understanding of authentication flow, storing
+tokens securely, and redirecting users based on authentication status.
+13. Optimistic UI Updates:
+Task: Implement optimistic UI updates in a React application.
+Requirements: Design a feature that updates the UI optimistically before receiving confirmation from
+the server. Show understanding of handling asynchronous actions, updating UI state optimistically,
+and reverting changes if the server request fails.
+14. RequirementsCode Splitting and Lazy Loading:
+Task: Implement code splitting and lazy loading in a React application.
+Requirements: Split the application code into smaller chunks and dynamically load them only when
+needed, improving initial page load performance. Show understanding of React.lazy() and Suspense
+for lazy loading components, as well as React Router's support for code splitting with dynamic
+imports.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
